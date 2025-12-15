@@ -1,0 +1,6 @@
+CompileFlags:
+  Add: [
+    -std=c++23,               # 使用 C++23 标准
+    -Wall,                    # 开启常规警告
+    -Wextra                   # 开启额外警告（可选）
+  ]
