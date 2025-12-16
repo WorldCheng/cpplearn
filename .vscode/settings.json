@@ -1,6 +1,6 @@
 {
   "code-runner.executorMap": {
-    "cpp": "clang++ -std=c++23 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+    "cpp": "clang++ -std=c++23 $fileName -o $fileNameWithoutExt.out && ./$fileNameWithoutExt.out"
   },
   "cmake.configureOnOpen": false
 }
